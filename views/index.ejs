@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <form method="post" action="/"> 
+            <h1>Contact us</h1>
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email"/>
+            <button type="submit">SEND</button>
+        </form>
+    </main>
+    <h1>Local <%= locals.name %></h1>  <!--To access entire object we use locals-->
+            <h1>Home <%=name %></h1>
+</body>
+</html>
